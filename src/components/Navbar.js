@@ -43,7 +43,7 @@ const Navbar = () => {
         };
     }, []);
     return (
-        <nav className=' bg-white border-b-2 border-gray-300' style={{
+        <nav className=' bg-[#2C2052] border-b-2 border-gray-300' style={{
             height: navSize,
             transition: "all 0.5s",
             color: textcolor,
@@ -59,7 +59,7 @@ const Navbar = () => {
                             <div className="ml-10 flex items-center space-x-4">
                                 <a
                                     href='/'
-                                    className="font-bold text-black hover:text-[#A592E3] transition-all px-3 w-full py-2 rounded-md text-base">
+                                    className="font-bold text-[#A592E3] hover:text-[#A592E3] transition-all px-3 w-full py-2 rounded-md text-base">
                                     <span className='w-full'>
                                         <MdNotificationsNone className='w-5 h-full' />
                                     </span>
@@ -73,7 +73,7 @@ const Navbar = () => {
                                 </Link>
                                 <a
                                     href='/'
-                                    className="font-bold text-black hover:text-[#A592E3] transition-all px-3 py-2 rounded-md text-base">
+                                    className="font-bold text-[#A592E3] hover:text-[#A592E3] transition-all px-3 py-2 rounded-md text-base">
                                     <span> Login</span>
                                 </a>
 

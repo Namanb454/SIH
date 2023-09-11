@@ -7,15 +7,17 @@ import {
   Route
 } from "react-router-dom";
 import LandingPage from './pages/LandingPage';
+import Imagebased from './pages/Imagebased';
 
 
 
 function AppRouter() {
   return (
     <Router>
-      <div className='bg-[#0e0c27]'>
+      <div>
         <Routes>
           <Route exact path="/" element={<LandingPage />} />
+          <Route exact path="/imgbased" element={<Imagebased />} />
         </Routes>
       </div>
     </Router>
