@@ -43,7 +43,7 @@ const Navbar = () => {
         };
     }, []);
     return (
-        <nav className=' bg-[#2C2052] border-b-2 border-gray-300' style={{
+        <nav className=' bg-[#2C2052] border-b-4 border-[#A592E3]' style={{
             height: navSize,
             transition: "all 0.5s",
             color: textcolor,

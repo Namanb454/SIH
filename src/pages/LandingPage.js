@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Main from '../components/Main'
 import ScrollButton from '../components/ScrollButton'
+import Footer from '../components/Footer'
 
 function LandingPage() {
     return (
@@ -15,6 +16,9 @@ function LandingPage() {
             </div>
             <div>
                 <Main />
+            </div>
+            <div>
+                <Footer />
             </div>
         </div>
     )

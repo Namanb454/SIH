@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Main() {
-    
+
     return (
         <div>
             <section class="text-gray-600 body-font">
@@ -45,7 +45,7 @@ function Main() {
 
                             </div>
                         </a>
-                        <a href='/' class="px-24 md:w-1/3" data-aos="zoom-in">
+                        <a href='/psychologybased' class="px-24 md:w-1/3" data-aos="zoom-in">
                             <div class="flex rounded-lg h-full bg-[#E2CAEB] border-2 border-[#7866B4] px-4 py-4 flex-col">
                                 <div class="flex items-center mb-3">
 
@@ -55,7 +55,7 @@ function Main() {
 
                             </div>
                         </a>
-                        <a href='/' class="px-24 md:w-1/3" data-aos="zoom-in">
+                        <a href='/personal' class="px-24 md:w-1/3" data-aos="zoom-in">
                             <div class="flex rounded-lg h-full bg-[#F9EBC4] border-2 border-[#C9B887] px-4 py-4 flex-col">
                                 <div class="flex items-center mb-3">
 
